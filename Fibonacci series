@@ -1,0 +1,13 @@
+n=int(input("Enter the number of terms: "))
+i=0
+a=0
+b=1
+while (i<n):
+    if(i<=1):
+        next=i
+    else:
+        next=a+b
+        a=b
+        b=next
+    print(next)
+    i=i+1
