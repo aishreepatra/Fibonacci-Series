@@ -1,0 +1,14 @@
+n1 = int(input("Enter number of elements in List1 : ")) 
+a = list(map(int,input("\nEnter the numbers for List1 : ").strip().split()))[:n1] 
+print("\nList1 = ", a)
+print("\nOutput for List1 is : ")
+for num1 in a:
+    if(num1>=0):
+       print(num1, end=" ")
+n2 = int(input("Enter number of elements in List2 : ")) 
+b = list(map(int,input("\nEnter the numbers for List2 : ").strip().split()))[:n2] 
+print("\nList2 = ", b)
+print("\nOutput for List2 is : ")
+for num2 in b:
+    if(num2>=0):
+       print(num2, end=" ")
